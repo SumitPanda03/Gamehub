@@ -8,7 +8,7 @@ interface Props {
 }
 
 const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
-    const { data, error } = usePlatforms();
+    const { error } = usePlatforms();
 
     if (error) return null;
 
